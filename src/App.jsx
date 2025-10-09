@@ -23,6 +23,7 @@ function App() {
           <div className="flex items-center gap-2 sm:gap-4">
             <a
               href="https://drive.google.com/file/d/15hA5MFNxKlvslqOU58LYWLTgRAj64WGc/view?usp=drive_link"
+              target="_blank"
               className="rounded-xl bg-teal-500 p-3 font-medium hover:bg-teal-400 md:p-4 md:text-base/tight"
             >
               Download CV <i className="ri-download-line"></i>
@@ -117,9 +118,9 @@ function App() {
               data-aos="fade-up"
               data-aos-once="true"
               data-aos-duration="1000"
-              data-aos-delay="{proyek.dad}"
+              data-aos-delay={proyek.id * 100 + 100}
             >
-              <a href={proyek.link}>
+              <a href={proyek.link} target="_blank">
                 <img
                   loading="lazy"
                   src={proyek.gambar}
@@ -183,6 +184,7 @@ function App() {
                 <a
                   href={platform.link}
                   className="text-lg opacity-75 hover:underline"
+                  target="_blank"
                 >
                   {platform.uname}
                 </a>

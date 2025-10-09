@@ -108,9 +108,7 @@ export const listTools = [
 import Project1 from "/assets/projects/project1.png";
 import Project2 from "/assets/projects/project2.png";
 import Project3 from "/assets/projects/project3.png";
-import Project4 from "/assets/projects/project1.png";
-import Project5 from "/assets/projects/project1.png";
-import Project6 from "/assets/projects/project1.png";
+import Project4 from "/assets/projects/project4.png";
 
 export const listProyek = [
   {
@@ -120,52 +118,30 @@ export const listProyek = [
     desk: "Memudahkan masyarakat dalam melakukan pendaftaran antrian secara online",
     tools: ["HTML", "CSS", "Javascript", "PHP", "Bootstrap", "Laravel"],
     link: "https://github.com/maoelanaAs/Antrian-Online-Disdukcapil",
-    dad: "200",
   },
   {
     id: 2,
     gambar: Project2,
+    nama: "Website Portfolio",
+    desk: "Website Portfolio pribadi yang dibuat menggunakan Vite dan ReactJS",
+    tools: ["HTML", "CSS", "Javascript", "TailwindCSS", "ReactJS", "Vite"],
+    link: "https://maoelanaas.github.io/portfolio",
+  },
+  {
+    id: 4,
+    gambar: Project3,
     nama: "Website Poliklinik Online",
     desk: "Website untuk memudahkan pasien dalam melakukan pendaftaran secara online",
     tools: ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
     link: "https://github.com/maoelanaAs/polidinus",
-    dad: "300",
   },
   {
     id: 3,
-    gambar: Project3,
+    gambar: Project4,
     nama: "Detikhealth Sudirman Run 2023",
     desk: "Proyek Landing Page untuk Assignmet Seleksi Detikcom Internship (Frontend Designer)",
     tools: ["HTML", "CSS", "Javascript", "Bootstrap"],
-    link: "https://maoelanaas.github.io/Detikcom_FEDesignAssignment/",
-    dad: "400",
-  },
-  {
-    id: 4,
-    gambar: Project4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-    link: "https://maoelanaas.github.io/Detikcom_FEDesignAssignment/",
-    dad: "500",
-  },
-  {
-    id: 5,
-    gambar: Project5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-    link: "https://maoelanaas.github.io/Detikcom_FEDesignAssignment/",
-    dad: "600",
-  },
-  {
-    id: 6,
-    gambar: Project6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    link: "https://maoelanaas.github.io/Detikcom_FEDesignAssignment/",
-    dad: "700",
+    link: "https://maoelanaas.github.io/Detikcom_FEDesignAssignment",
   },
 ];
 
