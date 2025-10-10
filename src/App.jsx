@@ -22,7 +22,7 @@ function App() {
           </p>
           <div className="flex justify-center gap-4 lg:justify-start">
             <a
-              href="public/assets/Maulana_Asan_Hamid_Resume.pdf"
+              href="assets/Maulana_Asan_Hamid_Resume.pdf"
               className="rounded-xl bg-teal-500 p-3 font-medium hover:bg-teal-400 md:p-4 md:text-base/tight"
             >
               Download CV <i className="ri-download-line"></i>
