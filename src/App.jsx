@@ -7,10 +7,10 @@ function App() {
       {/* Hero Section */}
       <div
         id="hero"
-        className="hero grid grid-cols-1 items-center gap-8 py-8 md:grid-cols-2 xl:gap-0"
+        className="hero grid grid-cols-1 items-center gap-8 py-8 lg:grid-cols-2 lg:gap-0"
       >
-        <div className="animate__animated animate__fadeInLeft animate__delay-0.5s">
-          <h1 className="mb-4 text-3xl/tight font-bold lg:text-5xl/tight">
+        <div className="animate__animated animate__fadeInLeft animate__delay-0.5s mb-8 text-center lg:mb-0 lg:text-left">
+          <h1 className="mb-4 text-3xl/tight font-bold md:text-5xl/tight">
             Hi, Saya Maulana As'an
           </h1>
           <p className="mb-4 text-justify text-base/loose opacity-75">
@@ -20,10 +20,9 @@ function App() {
             Development dengan keahlian mendesain serta mengembangkan antarmuka
             website yang menarik, responsif dan optimal.
           </p>
-          <div className="flex items-center gap-2 sm:gap-4">
+          <div className="flex justify-center gap-4 lg:justify-start">
             <a
-              href="https://drive.google.com/file/d/15hA5MFNxKlvslqOU58LYWLTgRAj64WGc/view?usp=drive_link"
-              target="_blank"
+              href="public/assets/Maulana_Asan_Hamid_Resume.pdf"
               className="rounded-xl bg-teal-500 p-3 font-medium hover:bg-teal-400 md:p-4 md:text-base/tight"
             >
               Download CV <i className="ri-download-line"></i>
@@ -40,7 +39,7 @@ function App() {
           loading="lazy"
           src={DataImage.HeroImage}
           alt="Profile Image"
-          className="animate__animated animate__fadeInRight animate__delay-1s mx-auto w-[480px] md:mx-0 md:ml-auto"
+          className="animate__animated animate__fadeInRight animate__delay-1s mx-auto w-[480px] lg:mx-0 lg:ml-auto xl:w-3/4"
         />
       </div>
       {/* End Hero Section */}
@@ -65,7 +64,7 @@ function App() {
           Berikut adalah beberapa alat dan teknologi yang sering saya gunakan
           dalam pengembangan web:
         </p>
-        <div className="tools-box grid grid-cols-1 gap-4 text-left sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="tools-box grid grid-cols-1 gap-4 text-left sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {listTools.map((tool) => (
             <div
               className="group flex items-center gap-4 rounded-md border border-slate-700 p-4 hover:bg-slate-700"
@@ -110,11 +109,11 @@ function App() {
         >
           Berikut adalah beberapa proyek yang telah saya kerjakan:
         </p>
-        <div className="projects-box grid grid-cols-1 gap-4 text-left sm:grid-cols-2 lg:grid-cols-3">
+        <div className="projects-box grid grid-cols-1 gap-4 text-left sm:grid-cols-2 xl:grid-cols-3">
           {listProyek.map((proyek) => (
             <div
               key={proyek.id}
-              className="rounded-lg bg-slate-800 p-4"
+              className="rounded-lg bg-slate-800 p-4 shadow-lg"
               data-aos="fade-up"
               data-aos-once="true"
               data-aos-duration="1000"
@@ -125,7 +124,7 @@ function App() {
                   loading="lazy"
                   src={proyek.gambar}
                   alt={proyek.nama}
-                  className="w-full rounded-md object-cover transition-transform duration-300 hover:scale-102"
+                  className="w-full rounded-md object-cover transition-transform duration-300 hover:scale-102 hover:shadow-lg"
                 />
               </a>
               <div>
@@ -170,11 +169,11 @@ function App() {
           {listPlatform.map((platform) => (
             <div
               key={platform.id}
-              className="items-center rounded-lg bg-slate-800 p-4"
+              className="items-center rounded-lg bg-slate-800 p-4 shadow-lg"
               data-aos="fade-up"
               data-aos-once="true"
               data-aos-duration="1000"
-              data-aos-delay="{platform.dad}"
+              data-aos-delay={platform.id * 100 + 100}
             >
               <div className="text-center">
                 <i
