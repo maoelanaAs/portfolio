@@ -1,16 +1,69 @@
-# React + Vite
+# Website Portfolio Pribadi - Maulana As'an H.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub last commit](https://img.shields.io/github/last-commit/maoelanaAs/portfolio?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/maoelanaAs/portfolio?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/maoelanaAs/portfolio?style=for-the-badge)
 
-Currently, two official plugins are available:
+Ini adalah kode sumber untuk website portfolio pribadi saya, yang dibangun menggunakan tumpukan teknologi modern untuk menampilkan profil, keahlian, dan proyek-proyek saya. Website ini dirancang untuk menjadi representasi online dari kemampuan teknis dan perjalanan karir saya sebagai seorang developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot Portfolio](https://github.com/maoelanaAs/portfolio/blob/master/public/assets/projects/project2.png)
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Anda dapat melihat versi live dari portfolio ini di sini:
+**[https://maoelanaas.github.io/portfolio/](https://maoelanaas.github.io/portfolio/)**
 
-## Expanding the ESLint configuration
+## ✨ Fitur Utama
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Dibangun dengan React**: Antarmuka pengguna yang interaktif dan dinamis.
+-   **Desain Responsif**: Tampilan yang optimal di berbagai perangkat berkat Tailwind CSS.
+-   **Bagian Tentang Saya**: Perkenalan singkat mengenai latar belakang dan minat saya.
+-   **Bagian Keahlian (Skills)**: Daftar teknologi dan *tools* yang saya kuasai.
+-   **Bagian Proyek (Projects)**: Galeri proyek-proyek unggulan lengkap dengan deskripsi dan tautan.
+-   **Development Cepat**: Dikonfigurasi menggunakan Vite untuk pengalaman pengembangan yang sangat cepat.
+
+## 🛠️ Teknologi yang Digunakan
+
+Proyek ini dibangun menggunakan ekosistem JavaScript modern:
+
+-   **React**: Sebuah library JavaScript untuk membangun antarmuka pengguna yang komponen-based.
+-   **Vite**: *Build tool* generasi baru yang memberikan pengalaman pengembangan super cepat (*Hot Module Replacement*).
+-   **Tailwind CSS**: Sebuah *utility-first* CSS framework untuk desain yang cepat dan kustom.
+-   **HTML5 & CSS3**: Sebagai fondasi utama.
+
+## 📦 Cara Menjalankan Secara Lokal
+
+Jika Anda ingin menjalankan proyek ini di mesin lokal Anda, ikuti langkah-langkah berikut:
+
+**Prasyarat:** Pastikan Anda memiliki **Node.js** (versi 16 atau lebih baru) dan `npm` terinstal di komputer Anda.
+
+1.  **Clone repository ini:**
+    ```bash
+    git clone https://github.com/maoelanaAs/portfolio.git
+    ```
+
+2.  **Masuk ke direktori proyek:**
+    ```bash
+    cd portfolio
+    ```
+    
+3.  **Instal semua dependensi proyek:**
+    ```bash
+    npm install
+    ```
+
+4.  **Jalankan development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Buka browser Anda** dan kunjungi `http://localhost:5173` (atau alamat lain yang muncul di terminal Anda).
+
+##  Kontak
+
+Mari terhubung! Anda bisa menemukan saya di:
+
+-   **LinkedIn**: [Maulana As'an Hamid](https://www.linkedin.com/in/maulana-asan/)
+-   **GitHub**: [@maoelanaAs](https://github.com/maoelanaAs)
+-   **Email**: [maulanaasan10@gmail.com](mailto:maulanaasan10@gmail.com)
+-   **Instagram**: [@maul.an10](https://www.instagram.com/maul.an10)
