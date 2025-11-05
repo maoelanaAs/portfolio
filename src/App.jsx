@@ -22,7 +22,8 @@ function App() {
           </p>
           <div className="flex justify-center gap-4 lg:justify-start">
             <a
-              href="assets/Maulana_Asan_Hamid_Resume.pdf"
+              href="https://drive.google.com/drive/folders/1eUm63QEglLAXh0cvXgrEYFej0NdYNDwH?usp=sharing"
+              target="_blank"
               className="rounded-xl bg-teal-500 p-3 font-medium hover:bg-teal-400 md:p-4 md:text-base/tight"
             >
               Download CV <i className="ri-download-line"></i>
@@ -182,7 +183,7 @@ function App() {
                 <h3 className="mt-4 text-2xl font-bold">{platform.nama}</h3>
                 <a
                   href={platform.link}
-                  className="text-lg opacity-75 hover:underline"
+                  className="text-lg underline opacity-75 hover:no-underline"
                   target="_blank"
                 >
                   {platform.uname}
