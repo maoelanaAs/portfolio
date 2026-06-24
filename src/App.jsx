@@ -14,11 +14,14 @@ function App() {
             Hi, Saya Maulana As'an
           </h1>
           <p className="mb-4 text-justify text-base/loose opacity-75">
-            Saya adalah lulusan S1 Teknik Informatika Universitas Dian
-            Nuswantoro. Memiliki keterampilan komunikasi yang baik, mampu
-            bekerja dalam tim, dan cepat beradaptasi. Fokus pada Frontend Web
-            Development dengan keahlian mendesain serta mengembangkan antarmuka
-            website yang menarik, responsif dan optimal.
+            Saya adalah Sarjana Ilmu Komputer Universitas Dian Nuswantoro (IPK
+            3,84/4,00) bersertifikasi BNSP sebagai Pengembang Web dengan rekam
+            jejak sebagai Fullstack Web Developer dan Mobile (Flutter)
+            Developer. Berpengalaman mentransformasi sistem web kompleks menjadi
+            aplikasi mobile berkinerja tinggi. Ahli menggunakan framework modern
+            (React, Tailwind, Laravel). Memiliki kemampuan adaptasi, komunikasi
+            efektif, dan fokus pada detail untuk menciptakan solusi digital yang
+            berpusat pada pengguna.
           </p>
           <div className="flex justify-center gap-4 lg:justify-start">
             <a
